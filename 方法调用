@@ -1,0 +1,4 @@
+svgaImage = findViewById(R.id.svgaImage);
+svgaUtils = new SvgaUtils(MainActivity.this, svgaImage);
+svgaUtils.initAnimator();
+svgaUtils.startAnimator("hjdc");
